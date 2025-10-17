@@ -64,6 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Manager.cs" />
     <Compile Include="OrderProducts.cs">
       <DependentUpon>Yastrebov_Obuv.tt</DependentUpon>
     </Compile>

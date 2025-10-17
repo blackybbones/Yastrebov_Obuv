@@ -38,7 +38,6 @@ namespace Yastrebov_Obuv
         public virtual DbSet<PickUpPoints> PickUpPoints { get; set; }
         public virtual DbSet<Products> Products { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }
 }

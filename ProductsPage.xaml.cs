@@ -20,9 +20,42 @@ namespace Yastrebov_Obuv
     /// </summary>
     public partial class ProductsPage : Page
     {
+       
         public ProductsPage()
         {
             InitializeComponent();
+            var currentProducts = Yastrebov_ObuvEntities.GetContext().Products.ToList();
+            ProductListView.ItemsSource = currentProducts;
+        }
+
+        private void OrderBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void RButtonBiggist_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RbutttonSmallist_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBoxFilter_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
